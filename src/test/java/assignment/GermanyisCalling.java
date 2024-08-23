@@ -6,11 +6,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+/******
+ * Author-KhyatiShrivastava--Testing for login page(https://app.germanyiscalling.com/common/login/) 
+ * using valid(Test1) and invalid credentials(Test2) for which I have passed both testcases and 
+ * generated html reports.
+ */
 
 public class GermanyisCalling {
 	@Test
 	public void Test1() {
-		
+		//Test1-Login success with valid credentials
 		System.setProperty("webdriver.chrome.driver", "F:\\workspace\\chromedriver_win32\\chromedriver.exe");
 		//launch the browser
 		ChromeDriver driver=new ChromeDriver();
@@ -34,6 +39,8 @@ public class GermanyisCalling {
 	}
 	@Test
 	public void Test2() {
+		
+		//Test2-Login failure with invalid credentials 
 		System.setProperty("webdriver.chrome.driver", "F:\\workspace\\chromedriver_win32\\chromedriver.exe");
 		
 		//launch the browser
