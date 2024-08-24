@@ -10,6 +10,15 @@
 - Also I have first given path(from my local) for browser launching using System.setProperty
 
 ### Steps
+##If you dont have IDE (run in commandprompt)
+1.First convert your java project in eclipse to runnable jar file
+2.Right click on your project>>go to "export">>export pop up appears go to java >>
+>>click on java>>click on runnable jar>>select java application>>browse location to save your
+program as jar file in your local(save as filename.jar)
+3.Go to command prompt and open your jar in command prompt and execute it>>enter java -jar>>
+filepath and press enter your program will be executed.
+4.go to html report to get the pass fail test case report.
+##If you have eclipse installed
 1. Go to src/test/java>>open package assignment>>open GermanyisCalling class and run as TestNG test by right click --run as>>testNG Test
 2. Both test gets executed and pass and failure status is reflected , also skipped test cases are also reflected
 3. Right click on the class Germanyiscalling and convert to testNG suite and run the suite file that is xml file which generates html report
